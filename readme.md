@@ -20,6 +20,7 @@ The goal of this excercise is add all necessary tests and testing configuration.
 
 - Add `coverage` configuration.
 - Add `travis-ci` or `circle-ci` configuration.
+- Add `pods/recipes/components` tests.
 - Add `common/mappers/collection` tests.
 - Add `common/helpers/flat-items` tests.
 - Add `pods/recipes/recipes.business` tests.
