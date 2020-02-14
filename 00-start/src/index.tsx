@@ -1,5 +1,24 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { App } from './app';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import { LoginScene, HotelCollectionScene } from './scenes';
+import { switchRoutes, SessionProvider } from 'core';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <SessionProvider>
+    <HashRouter>
+      <Switch>
+        <Route
+          exact={true}
+          path={[switchRoutes.root, switchRoutes.login]}
+          component={LoginScene}
+        />
+        <Route
+          path={switchRoutes.hotelCollection}
+          component={HotelCollectionScene}
+        />
+      </Switch>
+    </HashRouter>
+  </SessionProvider>,
+  document.getElementById('root')
+);

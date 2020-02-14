@@ -14,12 +14,11 @@
     "esModuleInterop": true,
     "baseUrl": "./src/",
     "paths": {
-      "common": ["common"],
-      "common-app": ["common-app"],
-      "core": ["core"],
-      "layout": ["layout"],
-      "pods": ["pods"],
-      "scenes": ["scenes"]
+      "layouts": ["./layouts/"],
+      "scenes": ["./scenes/"],
+      "common": ["./common/"],
+      "core": ["./core/"],
+      "pods": ["./pods/"]
     }
   },
   "include": ["./src/**/*"]

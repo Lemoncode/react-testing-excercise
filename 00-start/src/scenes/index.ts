@@ -1,2 +1,2 @@
-export * from './recipes.scene';
-export * from './recipe.scene';
+export * from './login.scene';
+export * from './hotel-collection.scene';
