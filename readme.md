@@ -12,7 +12,7 @@ The goal of this excercise is add all necessary tests and testing configuration.
 - Add mapper tests (`common/mappers/collection.mapper.ts`, `pods/hotel-collection/hotel-collection.mapper.ts`).
 - Add `common/components` tests.
 - Add `pods/hotel-collection/hotel-collection.hook.ts` tests.
-- Add components and containers tests inside pods.
+- Add components and containers tests inside pods. (login and hotel-collection)
 
 ## Optional
 
